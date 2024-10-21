@@ -11,6 +11,14 @@ Instructors can instead have students run this command (or pipe it from curl,
 with a suitable warning about security practices) and then `cd` into the
 directory that is outputted.
 
+## Remote usage
+
+Before asking students to run this command, have them look at what it's doing!!
+
+```
+curl -s https://raw.githubusercontent.com/naclomi/desktop-finder/refs/heads/main/main.sh | sh
+```
+
 ## License
 
 Copyright (c) 2024 Naomi Alterman
