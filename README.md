@@ -1,5 +1,7 @@
 # desktop-finder
-A platform-agnostic shell script that prints a path to the current user's desktop directory relative to the terminal's working directory. Optionally, can print the desktop's absolute directory instead.
+A platform-agnostic shell script that prints a path to the current user's
+desktop directory relative to the terminal's working directory. Optionally,
+can print the desktop's absolute directory instead.
 
 Useful in classroom settings where the instructor might ask students to "cd
 ~/Desktop", since depending on operating system and the presence of backup
@@ -20,7 +22,7 @@ Or, remotely (before asking students to run this command, have them look at
 what it's doing!!):
 
 ```
-curl -s https://raw.githubusercontent.com/naclomi/desktop-finder/refs/heads/main/find-desktop.sh | sh
+curl -s https://raw.githubusercontent.com/naclomi/desktop-finder/refs/heads/main/find-desktop.sh | bash
 ```
 
 ## License
